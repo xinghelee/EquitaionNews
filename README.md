@@ -4,6 +4,10 @@
 
 > 非官方项目，与 eqn.news 无隶属关系。快讯内容版权归 eqn.news 及原始来源所有。
 
+| 快讯 | 详情 | 自选 | 行情 |
+| :---: | :---: | :---: | :---: |
+| <img src="docs/screenshots/1-feed.png" width="200"> | <img src="docs/screenshots/2-detail.png" width="200"> | <img src="docs/screenshots/3-watch.png" width="200"> | <img src="docs/screenshots/4-market.png" width="200"> |
+
 ## 功能
 
 - **实时快讯**：WebSocket 推送 + MCP 轮询兜底，按标题 / 链接去重；断线自动补齐
