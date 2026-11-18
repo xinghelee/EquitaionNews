@@ -231,7 +231,10 @@ struct FeedView: View {
             guard let u else { return }
             PushManager.shared.pendingOpen = nil
             // 非 eqn.news 链接（如 WS 推送带的原文链接）直接用浏览器打开
-            guard u.host?.hasSuffix("eqn.news") == true else {
+            // 深链来自外部，只接受 http(s)；eqn.news 需精确匹配域名
+            guard let scheme = u.scheme?.lowercased(), scheme == "https" || scheme == "http",
+                  let host = u.host?.lowercased() else { return }
+            guard host == "eqn.news" || host.hasSuffix(".eqn.news") else {
                 if let hit = client.items.first(where: { $0.sourceURL == u || $0.url == u }) { selected = hit } else { openURL(u) }
                 return
             }
