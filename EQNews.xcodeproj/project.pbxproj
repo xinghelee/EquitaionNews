@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F39DE4DC2BA3AC2CBBECB76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012088F71F1F075A48710614 /* Assets.xcassets */; };
+		1337AE784E27B4A4AFCB9437 /* EqnClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8039E8F82F11664A1A57D /* EqnClient.swift */; };
+		18E4C80A41364C30D7C336C1 /* Typeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5199CA4B5EA077A786A3203 /* Typeset.swift */; };
+		23F74BFF1EB1551F90AAAD32 /* XAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F687C6BB0B8FAC30571A0FC /* XAI.swift */; };
+		2CB78FE920711E6DFBE68D4B /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9D62D365756584B9F4C15 /* WatchApp.swift */; };
+		317F6A5B188BCD392D65AD37 /* EQNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C850659D2CA7352EF5F6D1 /* EQNewsApp.swift */; };
+		357BF6959BA56D85CA68492F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7090B7606DDF11C7D4D0037E /* Assets.xcassets */; };
+		367FAAD6C20FC5223B5970A4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8113449CDCB6216F588900 /* Models.swift */; };
+		3CB353E429E6FCD288E62446 /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5E0B4FBB87C01A1EC4B7C /* Widgets.swift */; };
+		54FD146602D8182D31F3EE8C /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A07DBF6CDA5947055FAA32 /* Detail.swift */; };
+		61D811FE411854A792DE19C1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A00664104B7684D7A45E39 /* SettingsView.swift */; };
+		6CF1B6A79474B2A4D07A6C84 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4D9FC4869BE24C916B1E07 /* Push.swift */; };
+		7F25BAA1534FF3822DDE01A2 /* EQNewsWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5EA1A847185D132FC53752B /* EQNewsWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8A4CDA8EDFA6248171887CB8 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A718266C428C750AB26246C /* Speaker.swift */; };
+		8E1B1D6FA6972855067EACC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44324E4412284540EEA49CC7 /* ContentView.swift */; };
+		92F24D03008DF538A599A69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA5969BA3F6856E1236218B /* Assets.xcassets */; };
+		9FF623E263DF9FAE7B2D28A7 /* LiteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29B6F8376A6CD4C7C48A9C2 /* LiteAPI.swift */; };
+		B953FD29D70A9882F1F6743C /* EQNewsWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9466C0E6C36CF17CDF83EE77 /* EQNewsWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCFB2FB911148D0C17898900 /* Briefing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552A266B8691FA6394AF7BAA /* Briefing.swift */; };
+		C07A2390A019873A2ACF89E7 /* SerifFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202C293BA90757D403150BCF /* SerifFont.swift */; };
+		DF0B71FE891608A1A52B68DA /* MyWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58271B021D335BE9404FAF2 /* MyWatchView.swift */; };
+		F1D0F27089110A89178D69AB /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBDB43B558961D2A727311 /* Market.swift */; };
+		F2CD28A560F88762A07D681B /* Watchlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9BC446B659554EC389A4ED /* Watchlist.swift */; };
+		F57578DDEA6D1B833736278F /* LiteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29B6F8376A6CD4C7C48A9C2 /* LiteAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		449A2158BE818B01B5E8D226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16592C0F09C86EFF4A2F2B53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB413F77EBE51D37963C2A1;
+			remoteInfo = EQNewsWidgets;
+		};
+		B56EDE366D75F1A3BEFE79C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16592C0F09C86EFF4A2F2B53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52775908428CAFC6E9360B76;
+			remoteInfo = EQNewsWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DF035E3B8483789361B7ED8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7F25BAA1534FF3822DDE01A2 /* EQNewsWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C6EFDE4495DA7A2592A7A3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B953FD29D70A9882F1F6743C /* EQNewsWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		012088F71F1F075A48710614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F687C6BB0B8FAC30571A0FC /* XAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAI.swift; sourceTree = "<group>"; };
+		1553AFE9CB06D00607F2D46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		15EBDB43B558961D2A727311 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		18212EDC0F3435E43F74079E /* EQNews.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EQNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202C293BA90757D403150BCF /* SerifFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerifFont.swift; sourceTree = "<group>"; };
+		44324E4412284540EEA49CC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		552A266B8691FA6394AF7BAA /* Briefing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Briefing.swift; sourceTree = "<group>"; };
+		68C850659D2CA7352EF5F6D1 /* EQNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EQNewsApp.swift; sourceTree = "<group>"; };
+		69E5E0B4FBB87C01A1EC4B7C /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
+		6B9BC446B659554EC389A4ED /* Watchlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watchlist.swift; sourceTree = "<group>"; };
+		6BFE43E75CE1FBF96B01451D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7090B7606DDF11C7D4D0037E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A718266C428C750AB26246C /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		89B8039E8F82F11664A1A57D /* EqnClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqnClient.swift; sourceTree = "<group>"; };
+		9466C0E6C36CF17CDF83EE77 /* EQNewsWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EQNewsWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A00664104B7684D7A45E39 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B29B6F8376A6CD4C7C48A9C2 /* LiteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteAPI.swift; sourceTree = "<group>"; };
+		B5A07DBF6CDA5947055FAA32 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		CC8113449CDCB6216F588900 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D5199CA4B5EA077A786A3203 /* Typeset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typeset.swift; sourceTree = "<group>"; };
+		D5EA1A847185D132FC53752B /* EQNewsWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = EQNewsWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA5969BA3F6856E1236218B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2C9D62D365756584B9F4C15 /* WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
+		E58271B021D335BE9404FAF2 /* MyWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWatchView.swift; sourceTree = "<group>"; };
+		EE4D9FC4869BE24C916B1E07 /* Push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		F462A3B975F234A69818C9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FC85C6F9B4638C8114E2A459 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0123B6DF82A0283A92F3756B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18212EDC0F3435E43F74079E /* EQNews.app */,
+				9466C0E6C36CF17CDF83EE77 /* EQNewsWatch.app */,
+				D5EA1A847185D132FC53752B /* EQNewsWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		530993971FABEFC62E17B5EC /* EQNewsWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				012088F71F1F075A48710614 /* Assets.xcassets */,
+				F462A3B975F234A69818C9E4 /* Info.plist */,
+				69E5E0B4FBB87C01A1EC4B7C /* Widgets.swift */,
+			);
+			path = EQNewsWidgets;
+			sourceTree = "<group>";
+		};
+		722010300405A952A83DD7FF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B29B6F8376A6CD4C7C48A9C2 /* LiteAPI.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7BEA4EFA5EC600E2C4C27C82 /* EQNews */ = {
+			isa = PBXGroup;
+			children = (
+				7090B7606DDF11C7D4D0037E /* Assets.xcassets */,
+				552A266B8691FA6394AF7BAA /* Briefing.swift */,
+				44324E4412284540EEA49CC7 /* ContentView.swift */,
+				B5A07DBF6CDA5947055FAA32 /* Detail.swift */,
+				89B8039E8F82F11664A1A57D /* EqnClient.swift */,
+				68C850659D2CA7352EF5F6D1 /* EQNewsApp.swift */,
+				6BFE43E75CE1FBF96B01451D /* Info.plist */,
+				15EBDB43B558961D2A727311 /* Market.swift */,
+				CC8113449CDCB6216F588900 /* Models.swift */,
+				E58271B021D335BE9404FAF2 /* MyWatchView.swift */,
+				EE4D9FC4869BE24C916B1E07 /* Push.swift */,
+				202C293BA90757D403150BCF /* SerifFont.swift */,
+				B0A00664104B7684D7A45E39 /* SettingsView.swift */,
+				7A718266C428C750AB26246C /* Speaker.swift */,
+				D5199CA4B5EA077A786A3203 /* Typeset.swift */,
+				6B9BC446B659554EC389A4ED /* Watchlist.swift */,
+				0F687C6BB0B8FAC30571A0FC /* XAI.swift */,
+			);
+			path = EQNews;
+			sourceTree = "<group>";
+		};
+		7C16761BFBDE6B54CF3C2FB3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C6F9B4638C8114E2A459 /* Signing.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		B5A63AB6F58568652AA9FF47 = {
+			isa = PBXGroup;
+			children = (
+				7C16761BFBDE6B54CF3C2FB3 /* Config */,
+				7BEA4EFA5EC600E2C4C27C82 /* EQNews */,
+				FA063AF9D8FDC0DB64AEBA39 /* EQNewsWatch */,
+				530993971FABEFC62E17B5EC /* EQNewsWidgets */,
+				722010300405A952A83DD7FF /* Shared */,
+				0123B6DF82A0283A92F3756B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA063AF9D8FDC0DB64AEBA39 /* EQNewsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5969BA3F6856E1236218B /* Assets.xcassets */,
+				1553AFE9CB06D00607F2D46C /* Info.plist */,
+				E2C9D62D365756584B9F4C15 /* WatchApp.swift */,
+			);
+			path = EQNewsWatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52775908428CAFC6E9360B76 /* EQNewsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6D09771775DA03B620C9AE /* Build configuration list for PBXNativeTarget "EQNewsWatch" */;
+			buildPhases = (
+				8B598B79B0BF77CAE9A45E8A /* Sources */,
+				89332226CACBA8650CA8F6E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EQNewsWatch;
+			packageProductDependencies = (
+			);
+			productName = EQNewsWatch;
+			productReference = 9466C0E6C36CF17CDF83EE77 /* EQNewsWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		583F886BB58D39AC10E14873 /* EQNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61CDA743D6732B9C66A5614 /* Build configuration list for PBXNativeTarget "EQNews" */;
+			buildPhases = (
+				53E40F780BE637DC9B1B09B7 /* Sources */,
+				C89D771703FE62527609F34E /* Resources */,
+				1DF035E3B8483789361B7ED8 /* Embed Foundation Extensions */,
+				B7C6EFDE4495DA7A2592A7A3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A39B4BCE4E7CB61FF7EA1CF /* PBXTargetDependency */,
+				A398E16B52ADE5F9A2A56753 /* PBXTargetDependency */,
+			);
+			name = EQNews;
+			packageProductDependencies = (
+			);
+			productName = EQNews;
+			productReference = 18212EDC0F3435E43F74079E /* EQNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB413F77EBE51D37963C2A1 /* EQNewsWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D809E0E9DE9A59FE80AEEF0 /* Build configuration list for PBXNativeTarget "EQNewsWidgets" */;
+			buildPhases = (
+				773B44DA65594A940035D16D /* Sources */,
+				E8EB6A0A980CF516F9FBEBF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EQNewsWidgets;
+			packageProductDependencies = (
+			);
+			productName = EQNewsWidgets;
+			productReference = D5EA1A847185D132FC53752B /* EQNewsWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16592C0F09C86EFF4A2F2B53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					52775908428CAFC6E9360B76 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					583F886BB58D39AC10E14873 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					CDB413F77EBE51D37963C2A1 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49B9BF5DE8B553D5B86E8DA2 /* Build configuration list for PBXProject "EQNews" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B5A63AB6F58568652AA9FF47;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0123B6DF82A0283A92F3756B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				583F886BB58D39AC10E14873 /* EQNews */,
+				CDB413F77EBE51D37963C2A1 /* EQNewsWidgets */,
+				52775908428CAFC6E9360B76 /* EQNewsWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89332226CACBA8650CA8F6E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F24D03008DF538A599A69D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89D771703FE62527609F34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357BF6959BA56D85CA68492F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EB6A0A980CF516F9FBEBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F39DE4DC2BA3AC2CBBECB76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E40F780BE637DC9B1B09B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFB2FB911148D0C17898900 /* Briefing.swift in Sources */,
+				8E1B1D6FA6972855067EACC5 /* ContentView.swift in Sources */,
+				54FD146602D8182D31F3EE8C /* Detail.swift in Sources */,
+				317F6A5B188BCD392D65AD37 /* EQNewsApp.swift in Sources */,
+				1337AE784E27B4A4AFCB9437 /* EqnClient.swift in Sources */,
+				F1D0F27089110A89178D69AB /* Market.swift in Sources */,
+				367FAAD6C20FC5223B5970A4 /* Models.swift in Sources */,
+				DF0B71FE891608A1A52B68DA /* MyWatchView.swift in Sources */,
+				6CF1B6A79474B2A4D07A6C84 /* Push.swift in Sources */,
+				C07A2390A019873A2ACF89E7 /* SerifFont.swift in Sources */,
+				61D811FE411854A792DE19C1 /* SettingsView.swift in Sources */,
+				8A4CDA8EDFA6248171887CB8 /* Speaker.swift in Sources */,
+				18E4C80A41364C30D7C336C1 /* Typeset.swift in Sources */,
+				F2CD28A560F88762A07D681B /* Watchlist.swift in Sources */,
+				23F74BFF1EB1551F90AAAD32 /* XAI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B44DA65594A940035D16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF623E263DF9FAE7B2D28A7 /* LiteAPI.swift in Sources */,
+				3CB353E429E6FCD288E62446 /* Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B598B79B0BF77CAE9A45E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57578DDEA6D1B833736278F /* LiteAPI.swift in Sources */,
+				2CB78FE920711E6DFBE68D4B /* WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A39B4BCE4E7CB61FF7EA1CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB413F77EBE51D37963C2A1 /* EQNewsWidgets */;
+			targetProxy = 449A2158BE818B01B5E8D226 /* PBXContainerItemProxy */;
+		};
+		A398E16B52ADE5F9A2A56753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52775908428CAFC6E9360B76 /* EQNewsWatch */;
+			targetProxy = B56EDE366D75F1A3BEFE79C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03464D603813B6DF619EACF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EQNewsWatch/Info.plist;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghelee.eqnews.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		2C3885098F071A50083E0EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EQNewsWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghelee.eqnews.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E27C5836D3504612D2025B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EQNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghelee.eqnews;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A73F9968B6ACE7CEAB10803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EQNewsWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghelee.eqnews.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CB8E82B4A06546242BB746D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EQNewsWatch/Info.plist;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghelee.eqnews.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		C56C3F884D52ADC924E6C959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC85C6F9B4638C8114E2A459 /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		CA8E0F3969719E3D74AEDB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC85C6F9B4638C8114E2A459 /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		FAE94A8136631EDBEDB42A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = EQNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghelee.eqnews;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D809E0E9DE9A59FE80AEEF0 /* Build configuration list for PBXNativeTarget "EQNewsWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A73F9968B6ACE7CEAB10803 /* Debug */,
+				2C3885098F071A50083E0EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		49B9BF5DE8B553D5B86E8DA2 /* Build configuration list for PBXProject "EQNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56C3F884D52ADC924E6C959 /* Debug */,
+				CA8E0F3969719E3D74AEDB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A61CDA743D6732B9C66A5614 /* Build configuration list for PBXNativeTarget "EQNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE94A8136631EDBEDB42A87 /* Debug */,
+				5E27C5836D3504612D2025B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE6D09771775DA03B620C9AE /* Build configuration list for PBXNativeTarget "EQNewsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03464D603813B6DF619EACF1 /* Debug */,
+				6CB8E82B4A06546242BB746D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16592C0F09C86EFF4A2F2B53 /* Project object */;
+}

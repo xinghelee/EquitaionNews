@@ -1,0 +1,4 @@
+// 签名配置：在同目录新建 Local.xcconfig（已 gitignore）填写你自己的 Team ID
+// 参考 Local.xcconfig.example
+DEVELOPMENT_TEAM =
+#include? "Local.xcconfig"

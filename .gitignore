@@ -1,0 +1,18 @@
+# 本地签名
+Config/Local.xcconfig
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+.swiftpm/
+
+# relay
+relay/node_modules/
+relay/*.p8
+relay/data/
+*.p8
+
+.DS_Store

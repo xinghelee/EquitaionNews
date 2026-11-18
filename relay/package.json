@@ -1,0 +1,13 @@
+{
+  "name": "eqn-push-relay",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EquationNews -> APNs push relay (zero dependencies)",
+  "type": "module",
+  "main": "relay.mjs",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node relay.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
